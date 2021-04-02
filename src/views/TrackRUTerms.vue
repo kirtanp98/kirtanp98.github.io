@@ -59,3 +59,18 @@ export default {
   name: 'TrackRUTerms',
 };
 </script>
+
+<style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+p, li, ol, h1, h2 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+</style>
