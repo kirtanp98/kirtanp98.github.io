@@ -3,6 +3,7 @@ import Home from '../views/Home.vue';
 import TrackRUTerms from '../views/TrackRUTerms.vue';
 import TrackRUPrivacy from '../views/TrackRUPrivacy.vue';
 import DropletsPrivacy from '../views/DropletsPrivacy.vue';
+import FourOFour from '../views/404.vue';
 
 const routes = [
   {
@@ -33,6 +34,7 @@ const routes = [
     name: 'DropletsPrivacy',
     component: DropletsPrivacy,
   },
+  { path: '/:pathMatch(.*)*', component: FourOFour },
 ];
 
 const router = createRouter({

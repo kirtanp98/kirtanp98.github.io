@@ -1,8 +1,13 @@
 module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        octogon: '#1E202B',
+        pinkmon: '#F37480',
+      },
+    },
   },
   variants: {
     extend: {},

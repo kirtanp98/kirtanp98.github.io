@@ -3,13 +3,20 @@
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
   </div> -->
-  <router-view />
+  <div>
+    <Header />
+    <router-view />
+  </div>
 </template>
 <script>
 import './assets/tailwind.css';
+import Header from './components/Header.vue';
 
 export default {
   name: 'App',
+  components: {
+    Header,
+  },
 };
 </script>
 
@@ -20,4 +27,7 @@ export default {
 //   -moz-osx-font-smoothing: grayscale;
 //   color: #2c3e50;
 // }
+html {
+  @apply bg-octogon
+}
 </style>
