@@ -1,13 +1,13 @@
 <template>
-  <div class="bg-octogon">
+  <div>
     <!-- <div class="z-10 animate-bounce">
         <p>Scroll down</p>
         <p>V</p>
     </div> -->
-    <div class="z-0 flex flex-col h-screen justify-center items-center">
+    <div class="flex flex-col h-screen justify-center items-center">
       <h1 class="font-sans text-8xl text-pinkmon">{{name}}</h1>
       <div class="flex flex-row items-center">
-        <h3 class="font-sans text-xl text-pink-300 pr-1">{{blurb}}</h3>
+        <h3 class="font-sans text-xl text-pinkmon pr-1">{{blurb}}</h3>
         <img class="w-4 svgFill" :src="vanguard" alt="my-logo" />
       </div>
       <div class="grid grid-cols-3 gap-8 pt-5">

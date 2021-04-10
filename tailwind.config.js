@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: { content: ['./public/**/*.html', './src/**/*.vue'] },
   darkMode: 'media', // or 'media' or 'class'
@@ -6,6 +8,7 @@ module.exports = {
       colors: {
         octogon: '#1E202B',
         pinkmon: '#F37480',
+        lightBlue: colors.lightBlue,
       },
     },
   },
